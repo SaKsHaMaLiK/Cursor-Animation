@@ -54,3 +54,10 @@ $('.section li:nth-child(4)').on('mouseover', function(event) {
 $('.section li:nth-child(4)').on('mouseout', function(event) {			
     $('body').removeClass('color-blue');
 });
+// Yellow
+$('.section li:nth-child(5)').on('mouseover', function(event) {				
+    $('body').addClass('color-yellow');
+});				
+$('.section li:nth-child(5)').on('mouseout', function(event) {			
+    $('body').removeClass('color-yellow');
+});
