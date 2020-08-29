@@ -75,3 +75,10 @@ $('.section li:nth-child(7)').on('mouseover', function(event) {
 $('.section li:nth-child(7)').on('mouseout', function(event) {		
     $('body').removeClass('preload');
 });
+// loding
+$('.section li:nth-child(8)').on('mouseover', function(event) {				
+    $('body').addClass('preload1');
+});				
+$('.section li:nth-child(8)').on('mouseout', function(event) {		
+    $('body').removeClass('preload1');
+});

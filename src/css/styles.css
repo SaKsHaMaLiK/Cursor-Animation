@@ -184,6 +184,20 @@ h2{
 	box-shadow: 0 0 14px rgba(255, 255, 255, 0);
   opacity: 0.5;
 }
+.preload1 .cursor2{
+	border: 5px solid rgba(255, 255, 255, 0.1);
+	box-shadow: 0 0 22px rgba(255, 255, 255, 0);
+}
+.preload1 .cursor2.hover{
+	background-color: transparent;
+  background-repeat: no-repeat;
+  background-image: url('https://ivang-design.com/svg-load/oval.svg');
+  background-size: 35px 35px;
+  background-position: center center;
+  border-width: 0;
+	box-shadow: 0 0 14px rgba(255, 255, 255, 0);
+  opacity: 0.5;
+}
 
 
 
