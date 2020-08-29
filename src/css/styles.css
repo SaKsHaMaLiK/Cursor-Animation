@@ -168,6 +168,22 @@ h2{
   border: none;
 	box-shadow: 0 0 14px rgba(155, 89, 182, 0.3);
 }
+.preload .cursor2{
+	border: 1px solid #fff;
+	box-shadow: 0 0 12px rgba(255, 255, 255, 0.6);
+	-webkit-transform:scale(2) translateX(-25%) translateY(-25%);
+	transform:scale(2) translateX(-25%) translateY(-25%);
+}
+.preload .cursor2.hover{
+	background-color: transparent;
+  background-repeat: no-repeat;
+  background-image: url('https://ivang-design.com/svg-load/rings.svg');
+  background-size: 55px 55px;
+  background-position: center center;
+  border-width: 0;
+	box-shadow: 0 0 14px rgba(255, 255, 255, 0);
+  opacity: 0.5;
+}
 
 
 
