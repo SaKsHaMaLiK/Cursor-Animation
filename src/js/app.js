@@ -89,3 +89,10 @@ $('.section li:nth-child(9)').on('mouseover', function(event) {
 $('.section li:nth-child(9)').on('mouseout', function(event) {		
     $('body').removeClass('preload2');
 });
+// bars
+$('.section li:nth-child(10)').on('mouseover', function(event) {				
+    $('body').addClass('bars');
+});				
+$('.section li:nth-child(10)').on('mouseout', function(event) {		
+    $('body').removeClass('bars');
+});

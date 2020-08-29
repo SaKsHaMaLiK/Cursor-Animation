@@ -212,6 +212,22 @@ h2{
 	box-shadow: 0 0 14px rgba(255, 255, 255, 0);
   opacity: 0.5;
 }
+.bars .cursor2{
+	border: 3px solid #fff;
+  border-radius: 0;
+	box-shadow: 0 0 22px rgba(255, 255, 255, 0.6);
+}
+.bars .cursor2.hover{
+	background-color: transparent;
+  background-repeat: no-repeat;
+  background-image: url('https://ivang-design.com/svg-load/bars.svg');
+  background-size: 28px 28px;
+  border-radius: 0;
+  background-position: center center;
+  border-width: 0;
+	box-shadow: 0 0 14px rgba(255, 255, 255, 0);
+  opacity: 0.5;
+}
 
 
 
