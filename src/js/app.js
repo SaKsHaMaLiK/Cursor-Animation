@@ -33,10 +33,17 @@ function o(t) {
     t.addEventListener("mouseover", n), t.addEventListener("mouseout", s)
 }
 
-
+// cyan
 $('.section li:nth-child(2)').on('mouseover', function(event) {				
     $('body').addClass('color-cyan');
 });	
 $('.section li:nth-child(2)').on('mouseout', function(event) {			
     $('body').removeClass('color-cyan');
-});			
+});
+// red
+$('.section li:nth-child(3)').on('mouseover', function(event) {				
+    $('body').addClass('color-red');
+});				
+$('.section li:nth-child(3)').on('mouseout', function(event) {			
+    $('body').removeClass('color-red');
+});
