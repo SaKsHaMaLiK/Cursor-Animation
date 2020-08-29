@@ -82,3 +82,10 @@ $('.section li:nth-child(8)').on('mouseover', function(event) {
 $('.section li:nth-child(8)').on('mouseout', function(event) {		
     $('body').removeClass('preload1');
 });
+// without border
+$('.section li:nth-child(9)').on('mouseover', function(event) {				
+    $('body').addClass('preload2');
+});				
+$('.section li:nth-child(9)').on('mouseout', function(event) {		
+    $('body').removeClass('preload2');
+});

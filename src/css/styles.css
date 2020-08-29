@@ -198,6 +198,20 @@ h2{
 	box-shadow: 0 0 14px rgba(255, 255, 255, 0);
   opacity: 0.5;
 }
+.preload2 .cursor2{
+	border: 3px solid #fff;
+	box-shadow: 0 0 22px rgba(255, 255, 255, 0.6);
+}
+.preload2 .cursor2.hover{
+	background-color: transparent;
+  background-repeat: no-repeat;
+  background-image: url('https://ivang-design.com/svg-load/tail-spin.svg');
+  background-size: 35px 35px;
+  background-position: center center;
+  border-width: 0;
+	box-shadow: 0 0 14px rgba(255, 255, 255, 0);
+  opacity: 0.5;
+}
 
 
 
