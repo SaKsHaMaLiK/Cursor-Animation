@@ -61,3 +61,10 @@ $('.section li:nth-child(5)').on('mouseover', function(event) {
 $('.section li:nth-child(5)').on('mouseout', function(event) {			
     $('body').removeClass('color-yellow');
 });
+// voilet
+$('.section li:nth-child(6)').on('mouseover', function(event) {				
+    $('body').addClass('color-violet');
+});				
+$('.section li:nth-child(6)').on('mouseout', function(event) {		
+    $('body').removeClass('color-violet');
+});
