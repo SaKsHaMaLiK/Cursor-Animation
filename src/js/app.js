@@ -32,3 +32,11 @@ for (var r = document.querySelectorAll(".hover-link"), a = r.length - 1; a >= 0;
 function o(t) {
     t.addEventListener("mouseover", n), t.addEventListener("mouseout", s)
 }
+
+
+$('.section li:nth-child(2)').on('mouseover', function(event) {				
+    $('body').addClass('color-cyan');
+});	
+$('.section li:nth-child(2)').on('mouseout', function(event) {			
+    $('body').removeClass('color-cyan');
+});			
