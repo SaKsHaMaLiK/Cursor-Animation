@@ -47,3 +47,10 @@ $('.section li:nth-child(3)').on('mouseover', function(event) {
 $('.section li:nth-child(3)').on('mouseout', function(event) {			
     $('body').removeClass('color-red');
 });
+// Blue
+$('.section li:nth-child(4)').on('mouseover', function(event) {				
+    $('body').addClass('color-blue');
+});				
+$('.section li:nth-child(4)').on('mouseout', function(event) {			
+    $('body').removeClass('color-blue');
+});
